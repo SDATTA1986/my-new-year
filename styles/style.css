@@ -1,3 +1,51 @@
-*{
+* {
     margin: 0px;
+}
+
+.banner {
+    width: 1600px;
+    height: 808px;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+.banner-info {
+    padding: 216px 230px 166px 845px;
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-heading {
+
+    color: #151414;
+    
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner-message {
+    margin-top: 24px;
+    color: #444343;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+
+.btn-banner {
+    margin-top: 32px;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 21px 25px 20px 26px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+
 }
